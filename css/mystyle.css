@@ -1,0 +1,107 @@
+.body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.homepage{
+    background-color: black;
+   /* width:100%;*/
+}
+
+
+/*////////////////full screen stuff///////////////*/
+
+.title{
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 186px;
+    font-weight: 700;
+    line-height: 160px;
+    color: #fdffd6;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    overflow: hidden;
+    
+}
+
+
+.hashtag{
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 0px;
+    color: #fdffd6;
+    padding-left: 85px;
+}
+
+.hashtagtext{
+    padding-top: 9px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fdffd6;
+    padding-left: 40px;
+}
+
+.homepage a{
+    text-decoration: none;
+}
+    
+/*////////////media queries small screen/////////////*/
+
+@media only screen and (max-width: 1200px) 
+{ 
+    .title{
+            padding-bottom:0;
+            margin-bottom:0px;
+            padding-top:0px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 108px;
+            font-weight: 700;
+            line-height: 94px;
+            color: #fdffd6;
+            margin-left: -5px;
+    }
+    
+    .hashtagspace{
+            padding-top: 40px
+    }
+    
+    .titlebottom {
+            padding-bottom: 140px; 
+    }
+}
+
+
+
+.homepage a{
+    text-decoration: none;
+}
+
+
+/*////////////phone size for testing /////////*/
+
+@media only screen and (max-width: 375px) 
+{
+    .title{
+        font-size:70px;
+        line-height: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

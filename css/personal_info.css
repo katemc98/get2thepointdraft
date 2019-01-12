@@ -1,0 +1,383 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*/////////////// pink ///////////////*/
+
+
+.rowq{
+    background-color: #feaa84;
+    padding-top: 10px;
+    
+}
+
+.qpersonalinfo{
+    margin-top: 15px;
+    position: relative;
+    padding-left: 90px;
+}
+
+
+.personalinfoimg{
+    width: 576px;
+    height: 261px;
+}
+
+.backrow{
+    background-color: #feaa84;
+}
+
+
+.linktohome{
+    position:fixed;
+    top:0;
+    left:5;
+    margin:.5em;
+    margin-top: 2em;
+      z-index: 3;
+}
+
+
+.title{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 135px;
+    line-height: 128px;
+    margin-top: -5px;
+    /*padding-top: px;*/
+}
+
+.titlerow{
+    background-color: #feaa84;
+    padding-top: 20px;
+}
+
+.how{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 51px;
+    padding-top: 160px;
+
+}
+
+.rowhow{
+    background-color: #feaa84;
+}
+
+
+/*////////////////// black //////////////////*/
+
+
+.introone{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 210px;
+    text-align:right;
+    
+}
+
+
+.rowone{
+    background-color: #000000;
+    margin-top: -32px;
+    
+}
+
+.quoteone{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 135px;
+    line-height: 128px;
+    padding-top: 200px;
+    text-transform: uppercase;
+}
+.quoteone::before{
+  content: "\201C";
+  position: absolute;
+  left:-.4%;
+  margin-left: -4%;
+}
+
+.rowtwo{
+    background-color: #000000;
+    padding-bottom:160px;
+}
+
+.paraone{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+
+
+/*////////////////// pink////////////////*/
+
+
+.rowthree{
+    background-color: #feaa84;
+    padding-bottom:70px;
+}
+
+.introtwo{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 160px;
+    padding-left: 60px;
+}
+
+.rowfour{
+    background-color: #feaa84;
+}
+
+.quotetwo{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 135px;
+    line-height: 128px;
+    text-transform: uppercase;
+}
+.quotetwo::before{
+  content: "\201C";
+  position: absolute;
+  left:-.3%;
+  margin-left: -3%;
+}
+
+.rowfive{
+    background-color: #feaa84;
+    padding-bottom:120px;
+    margin-left: -100px;
+}
+
+.paratwo{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/*/////////// black //////////////*/
+
+
+.rowsix{
+    background-color: #000000;
+    padding-top:280px;
+}
+
+.warningheadone{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-decoration-style: solid;
+    text-decoration-color: #fdffd6;
+    text-align: center
+}
+.rowseven{
+    background-color: #000000;
+    padding-bottom: 280px;
+}
+
+.warningparaone{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/*////////////// pink ///////////////*/
+
+
+.roweight{
+    background-color: #feaa84;
+    padding-top:180px;
+}
+
+.introthree{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.quotethree{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 135px;
+    line-height: 128px;
+    text-transform: uppercase;
+    
+}
+.quotethree::before{
+  content: "\201C";
+  position: absolute;
+  left:-.4%;
+  margin-left: -4%;
+}
+
+.rownine{
+    background-color: #feaa84;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.parathree{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+
+
+
+
+/*///////////////footer////////////////*/
+
+
+.rowfooter{
+    background-color: #feaa84;
+}
+
+hr{ 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width:0.5px;
+    border-color: black;    
+}
+
+.footerheadings{
+    background-color: #feaa84;
+}
+
+
+.hashtagname{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.contactus{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+
+.footerlinks{
+    background-color: #feaa84;
+}
+
+.twitterblack{
+    height: 30px;
+    width: auto;
+}
+
+.facebookblack{
+    height: 30px;
+    width: auto;
+    margin-left: -40px;
+}
+
+.weblink{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.address{
+    background-color: #feaa84;
+}
+
+.addressline{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.report{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.cybersafe{
+    background-color: #feaa84;
+    padding-top: 30px;
+}
+
+.copywrite{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 5px;
+}
+
+.logo{
+    height: 30px;
+    width: auto;
+}

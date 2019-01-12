@@ -1,0 +1,230 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*/////////////// cream ///////////////*/
+
+
+.rowq{
+    background-color: #fdffd6;
+    
+}
+
+.qstartconvo{
+    margin-top: 40px;
+    position: relative;
+    padding-left: 294px;
+}
+
+
+.startconvoimg{
+    width: 337px;
+    height: 320px;
+}
+
+
+.backrow{
+    background-color: #fdffd6;
+}
+
+
+.linktohome{
+    position:fixed;
+    top:0;
+    left:5;
+    margin:.5em;
+    margin-top: 2em; 
+        z-index: 3;
+}
+
+
+
+.title{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #45aca8;
+    font-size: 135px;
+    line-height: 128px;
+    text-transform: uppercase;
+    margin-top: -90px;
+}
+
+.titlerow{
+    background-color: #fdffd6;
+    padding-top: 30px;
+}
+
+.how{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 51px;
+    padding-top: 160px;
+
+}
+
+.rowhow{
+    background-color: #fdffd6;
+}
+
+
+
+/*//////////////// black ///////////////////*/
+
+
+.rowone{
+    background-color: #000000;
+    padding-bottom:50px;
+    padding-top: 80px;
+    margin-left: -30px;
+    margin-top: -31px;
+}
+
+.introone{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    text-align: right;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 100px;
+}
+
+.rowtwo{
+    background-color: #000000;
+}
+
+.quoteone{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 135px;
+    line-height: 128px;
+    text-transform: uppercase;
+}
+
+.quoteone::before{
+  content: "\201C";
+  position: absolute;
+  left:-.4%;
+  margin-left: -4%;
+}
+
+.rowthree{
+    background-color: #000000;
+    padding-bottom:180px;
+    padding-left: 10px;
+}
+
+.paraone{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 100px;
+}
+
+
+/*/////////////////// statistics //////////////////*/
+
+
+
+
+.rowstat{
+    background-color: #fdffd6;
+    padding-bottom: 150px;
+}
+
+.stat{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+    color: #000000;
+    font-size: 56px;
+    line-height:53px;
+    padding-top: 360px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+
+
+.stack30{
+    padding-left: 220px;
+    padding-top: 140px;
+}
+
+
+
+.asterix{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+    color: #000000;
+    font-size:56px;
+    line-height:53px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*/////////////// cream ///////////////*/
+
+
+
+.rowfour{
+    background-color: #000000;
+    padding-bottom:50px;
+    padding-top: 80px;
+    margin-left: -30px;
+    margin-top: -31px;
+}
+
+.introtwo{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    text-align: right;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 100px;
+}
+
+.rowfive{
+    background-color: #000000;
+}
+
+.quotetwo{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 135px;
+    line-height: 128px;
+    text-transform: uppercase;
+}
+
+/*.quoteone::before{
+  content: "\201C";
+  position: absolute;
+  left:-.4%;
+  margin-left: -4%;
+}*/
+
+.rowsix{
+    background-color: #000000;
+    padding-bottom:180px;
+    padding-left: 10px;
+}
+
+.paratwo{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 100px;
+}

@@ -1,0 +1,472 @@
+.hover{
+    background: #fdcf47;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    position: relative;	
+    top: 0;
+    bottom:0;
+}
+
+
+
+
+/*
+insert animate in tag to body
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}*/
+
+
+
+/*/////////////////// example hover ////////////*/
+
+.talkingtostrangers{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 540px;   
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 70px;
+    z-index: 1;
+    
+}
+.strangerswapfrontimage{
+    opacity: 0;
+}
+.strangerswapfrontimage:hover{
+    opacity: 100;
+    transition: 0.5s;
+}
+
+/*.hover .strangerswapbackimage{
+  z-index: 9999;
+  transition: opacity .5s  linear;
+  cursor: pointer;
+}
+    
+.hover:hover > .strangerswapbackimage{
+  opacity: 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////// small screen //////////////*/
+
+/*less that 768 px*/
+
+.rowqs{
+    background-color: #fdcf47;
+}
+
+.talkingtostrangers{
+width: 451px;
+height: 173px;
+margin-top: 30px;
+margin-left: 50px;
+}
+
+/*//////////// comes to me ///////////////*/
+
+.comestome{
+width: 375px;
+height: 215px;
+margin-top: 260px;
+margin-left: 75px;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+
+    .swapfrontcometome{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -240px;
+        width:379px;
+        height: 215px;
+        margin-left:75px;
+        
+    }
+    
+    
+    
+    .swapfrontcometome:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+/*///////////// personal info /////////////*/
+
+
+
+.personalinfo{
+width: 480px;
+height: 220px;
+margin-top: 50px;
+margin-left: -15px;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+
+    .swapfrontpersonal{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -245px;
+        height: 221px;
+        
+    }
+    
+    
+    
+    .swapfrontpersonal:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+
+
+
+/*/////////////// start convo ////////////////*/
+
+
+.startconvo{
+width: 268px;
+height: 265px;
+margin-top: 60px;
+margin-left: 20px;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+
+    .swapfrontconvo{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -290px;
+        
+    }
+    
+    
+    
+    .swapfrontconvo:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+
+/*///////////// regulate convo //////////////*/
+
+
+.regulatetime{
+width: 409px;
+height: 230px; 
+margin-top: 30px;
+margin-left: 80px;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+    .swapfrontregulate{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -255px;
+        height: 230px;
+        
+    }
+    
+    
+    .swapfrontregulate:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+
+
+/*////////////// too much time ///////////////*/
+
+
+.toomuchtime{
+width: 308px;
+height: 187px;
+margin-top: 60px;
+margin-left: 40px;
+margin-bottom: 50px;
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+    .swapfronttime{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -262px;
+        
+    }
+    
+    
+    .swapfronttime:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+
+/*///////// large screen media query  ////////////*/
+
+@media only screen and (min-width: 1200px) {
+    
+    
+    .rowqs{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    } 
+    
+    
+    
+    .talkingtostrangers{
+        width: 540px;
+        height: 220px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }  
+    
+    
+    /*.talkingtostrangers{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 540px;
+        
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+.strangerswapfrontimage{
+    opacity: 0;
+}
+.strangerswapfrontimage:hover{
+    opacity: 100;
+    transition: 0.5s;
+}*/
+    
+    /*/////////////personal info////////////////*/
+    
+    .personalinfo{ 
+        width: 576px;
+        height: 260px;
+        margin-top: 15px;
+        margin-left: 75px;
+        
+        
+    /*position: absolute;*/
+    top:0;
+    left:0;
+    overflow: hidden;
+   /* width: 540px;*/
+    }
+    
+    
+    .swapfrontpersonal{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -285px;
+        height: 261px;
+    }
+    
+    
+    .swapfrontpersonal:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+    
+  /*  ////////////////too much time//////////////////*/
+    
+    
+    .toomuchtime{
+        width: 376px;
+        height: 230px;
+        margin-top: 0px;
+        margin-left: 30px;
+        
+        top:0;
+        left:0;
+        overflow: hidden;   
+    }
+    
+    .swapfronttime{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -305px;
+    }
+    
+    
+    
+    .swapfronttime:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+    
+    
+ /* //////////////// comes to me ////////////////*/
+    
+    
+    .comestome{
+        width: 462px;
+        height: 274px;
+        margin-top: -67px;
+        margin-left: 0px;
+        
+        top:0;
+        left:0;
+        overflow: hidden;
+    } 
+    
+    
+    .swapfrontcome{
+        opacity: 0;
+        
+       /* width: 466px;
+        height: 280px;*/
+        width: 466px;
+        height: 274px;
+        z-index: 9;
+        position: relative;
+        margin-top: -300px;
+        
+        
+    }
+    
+    .swapfrontcome:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+    
+    
+    
+    
+   /* ////////////////// start convo ///////////////*/
+    
+    
+    .startconvo{
+        width: 338px;
+        height: 323px;
+        margin-top: 70px;
+        margin-left: 40px;
+        
+        top:0;
+        left:0;
+        overflow: hidden;
+    }
+    
+    
+    .swapfrontconvo{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -348px;
+        
+    }
+    
+    
+    
+    .swapfrontconvo:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+    
+    
+    
+    
+/*    ///////////////// regulate time ////////////////*/
+    
+    
+
+    .regulatetime{
+        width: 517px;
+        height: 290px; 
+        margin-top: -218px;
+        margin-left: 270px;
+        margin-bottom: -20px;
+        
+        top:0;
+        left:0;
+        overflow: hidden;
+        
+    }
+
+
+    .swapfrontregulate{
+        opacity: 0;
+        z-index: 9;
+        position: relative;
+        margin-top: -295px;
+        
+    }
+    
+    
+    
+    .swapfrontregulate:hover{
+        opacity: 100;
+        transition: 0.5s;
+    }
+
+
+
+
+/*////////////////////////*/
+/*/////////////////////////*/
+/*    ///////////////////////*/
+    /*////////////////////*/
+
+
+}
+
