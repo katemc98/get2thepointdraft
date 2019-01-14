@@ -9,7 +9,6 @@
 
 .rowq{
     background-color: #feaa84;
-    padding-top: 10px;
     
 }
 
@@ -52,7 +51,6 @@
 
 .titlerow{
     background-color: #feaa84;
-    padding-top: 20px;
 }
 
 .how{
@@ -283,11 +281,12 @@ hr{
   margin-right: auto;
   border-style: inset;
   border-width:0.5px;
-    border-color: black;    
+  border-color: black;
 }
 
 .footerheadings{
     background-color: #feaa84;
+    padding-top: 40px;
 }
 
 
@@ -299,23 +298,11 @@ hr{
     line-height: 24px;
     text-align: left;
     text-transform: uppercase;
-    padding-top: 40px;
 }
-
-.contactus{
-    font-family: 'Oswald', sans-serif; 
-    font-weight: 500;
-    color: #000000;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: left;
-    text-transform: uppercase;
-    padding-top: 40px;
-}
-
 
 .footerlinks{
     background-color: #feaa84;
+    margin-top: -10px;
 }
 
 .twitterblack{
@@ -326,8 +313,19 @@ hr{
 .facebookblack{
     height: 30px;
     width: auto;
-    margin-left: -40px;
+    margin-left: -50px;
 }
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
 
 .weblink{
      font-family: 'Roboto', sans-serif; 
@@ -336,12 +334,10 @@ hr{
     font-size: 12px;
     line-height: 18px;
     text-align: left;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    padding-left: 20px;
 }
 
-.address{
-    background-color: #feaa84;
-}
 
 .addressline{
     font-family: 'Roboto', sans-serif; 
@@ -350,6 +346,7 @@ hr{
     font-size: 12px;
     line-height: 18px;
     text-align: left;
+    padding-left: 20px;
 }
 
 .report{
@@ -359,11 +356,13 @@ hr{
     font-size: 12px;
     line-height: 18px;
     text-align: left;
+    padding-left: 20px;
 }
 
 .cybersafe{
     background-color: #feaa84;
     padding-top: 30px;
+    padding-right: 15px;
 }
 
 .copywrite{
@@ -378,6 +377,22 @@ hr{
 }
 
 .logo{
-    height: 30px;
+    height: 60px;
     width: auto;
+    margin-left: -60px;
+    margin-top: -10px;
+    padding-left: 50px;
 }
+
+
+
+
+/*
+@media only screen and (max-width: 375px) {
+    */
+    
+    
+    
+/*    
+    
+}*/

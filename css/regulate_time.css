@@ -42,7 +42,6 @@
 }
 
 .titlerow{
-    padding-top: 30px;
     background-color: #45aca8;
 }
 
@@ -225,4 +224,121 @@
 
 
 
+/*///////////////footer////////////////*/
+
+
+.rowfooter{
+    background-color: #000000;
+}
+
+hr{ 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width:0.5px;
+  border-color: #fdffd6;
+}
+
+.footerheadings{
+    background-color: #000000;
+    padding-top: 40px;
+}
+
+
+.hashtagname{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #fdffd6;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footerlinks{
+    background-color: #000000;
+    margin-top: -10px;
+}
+
+.twitterblack{
+    height: 30px;
+    width: auto;
+}
+
+.facebookblack{
+    height: 30px;
+    width: auto;
+    margin-left: -50px;
+}
+
+
+.vl {
+  border-left: 1px solid #fdffd6;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+
+.weblink{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    /*text-transform: uppercase;*/
+    padding-left: 20px;
+}
+
+
+.addressline{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.report{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cybersafe{
+    background-color: #000000;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.copywrite{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #fdffd6;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 5px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: -60px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
 

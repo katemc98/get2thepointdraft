@@ -18,7 +18,7 @@
 }
 
 .qtalkingtostrangers{
-    margin-top: 30px;
+    margin-top: 20px;
     position: relative;
     padding-left: 100px;
 }
@@ -57,7 +57,6 @@
 
 .titlerow{
     background-color: #feaa84;
-    padding-top: 20px;
 }
 
 .how{
@@ -301,6 +300,133 @@
     
 
 
+/*///////////////footer////////////////*/
+
+
+.rowfooter{
+    background-color: #feaa84;
+}
+
+hr{ 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width:0.5px;
+  border-color: black;
+}
+
+.footerheadings{
+    background-color: #feaa84;
+    padding-top: 40px;
+}
+
+
+.hashtagname{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footerlinks{
+    background-color: #feaa84;
+    margin-top: -10px;
+}
+
+.twitterblack{
+    height: 30px;
+    width: auto;
+}
+
+.facebookblack{
+    height: 30px;
+    width: auto;
+    margin-left: -50px;
+}
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+
+.weblink{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    /*text-transform: uppercase;*/
+    padding-left: 20px;
+}
+
+
+.addressline{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.report{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cybersafe{
+    background-color: #feaa84;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.copywrite{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 5px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: -60px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -328,7 +454,7 @@
 }
 
 .qtalkingtostrangers{
-    margin-top: 30px;
+    margin-top: 25px;
     position: relative;
     margin-left: -50px
 }
@@ -602,7 +728,7 @@
 .rowseven{
     background-color: #feaa84;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 
 .parathree{
@@ -625,3 +751,137 @@
 }
     
 
+/*///////////////footer////////////////*/
+
+
+.rowfooter{
+    background-color: #feaa84;
+}
+
+hr{ 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+ /* margin-left: auto;
+  margin-right: auto;*/
+  border-style: inset;
+  border-width:0.5px;
+  border-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footerheadings{
+    background-color: #feaa84;
+    margin-top: -20px;
+}
+
+
+.hashtagname{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left:20px;
+}
+
+.footerlinks{
+    background-color: #feaa84;
+/*    margin-top: -10px;*/
+}
+
+.twitterblack{
+    height: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.facebookblack{
+    height: 20px;
+    width: auto;
+    margin-left: 70px;
+    margin-top: -50px;
+    
+}
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+margin-left: 370px;
+    margin-top: -40px;
+}
+
+
+.weblink{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    /*text-transform: uppercase;*/
+    margin-top: -40px;
+    padding-left: 190px;
+}
+
+
+.addressline{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 190px;
+    margin-top: -40px;
+}
+
+.report{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-top: -5px;
+    padding-left: 20px;
+}
+
+    .reportspace{
+        padding-left: 5px;
+    }   
+    
+.cybersafe{
+    background-color: #feaa84;
+    margin-top: -40px;
+
+}
+
+.copywrite{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 300px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    padding-left: 535px;
+    margin-top: -60px;
+}
+
+.rowlogo{
+    background-color: #feaa84;
+}   
+ 

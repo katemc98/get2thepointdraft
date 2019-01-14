@@ -52,7 +52,6 @@
 
 .titlerow{
     background-color: #fdffd6;
-    padding-top: 30px;
 }
 
 .how{
@@ -182,3 +181,121 @@
     padding-top: 80px;
 }
 
+
+/*///////////////footer////////////////*/
+
+
+.rowfooter{
+    background-color: #fdffd6;
+}
+
+hr{ 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width:0.5px;
+  border-color: black;
+}
+
+.footerheadings{
+    background-color: #fdffd6;
+    padding-top: 40px;
+}
+
+
+.hashtagname{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footerlinks{
+    background-color: #fdffd6;
+    margin-top: -10px;
+}
+
+.twitterblack{
+    height: 30px;
+    width: auto;
+}
+
+.facebookblack{
+    height: 30px;
+    width: auto;
+    margin-left: -50px;
+}
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+
+.weblink{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    /*text-transform: uppercase;*/
+    padding-left: 20px;
+}
+
+
+.addressline{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.report{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cybersafe{
+    background-color: #fdffd6;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.copywrite{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 5px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: -60px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
